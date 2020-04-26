@@ -74,19 +74,19 @@ int main(){
 
 	switch(lvlInt){
 		case 0:
-			strcpy(fileName,"wordFiles/sandwich.txt");
+			strcpy(fileName,"sandwich.txt");
 			strcpy(game.set, "sandwich");
 			break; 
 		case 1:
-			strcpy(fileName,"wordFiles/computer.txt");
+			strcpy(fileName,"computer.txt");
 			strcpy(game.set, "computer");
 			break; 
 		case 2:
-			strcpy(fileName,"wordFiles/hamburger.txt");
+			strcpy(fileName,"hamburger.txt");
 			strcpy(game.set, "hamburger");
 			break;
 		case 3:
-			strcpy(fileName,"wordFiles/painting.txt");
+			strcpy(fileName,"painting.txt");
 			strcpy(game.set, "painting");
 			break;
 		default:
